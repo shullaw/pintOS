@@ -31,3 +31,5 @@
    -  if error "pixman", sudo apt install libpixman-1-dev libcairo2-dev libpango1.0-dev libjpeg8-dev libgif-dev and then run config command again
 - make
 - sudo make install
+- sudo ln -s /home/j/cmps_455/qemu/x86_64-softmmu/qemu-system-x86_64 /bin/qemu
+## Install Pintos
