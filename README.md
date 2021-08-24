@@ -33,3 +33,4 @@
 - sudo make install
 - sudo ln -s /home/j/cmps_455/qemu/x86_64-softmmu/qemu-system-x86_64 /bin/qemu
 ## Install Pintos
+-  PATH=/home/j/cmps_455/pintos/src/utils:$PATH
