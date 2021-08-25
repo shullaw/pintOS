@@ -33,4 +33,14 @@
 - sudo make install
 - sudo ln -s /home/j/cmps_455/qemu/x86_64-softmmu/qemu-system-x86_64 /bin/qemu
 ## Install Pintos
--  PATH=/home/j/cmps_455/pintos/src/utils:$PATH
+- nano ~/.bashrc and insert the following line at the bottom of the file
+   -  PATH=/home/j/cmps_455/pintos/src/utils:$PATH
+- source ~/.bashrc
+- tar -zxvf pintos.tar.gz
+- nano ~/cmps_455/pintos/src/utils/pintos-gdb
+- replace path to GDBMACROS with GDBMACROS=/home/j/cmps_455/pintos/src/misc/gdb-macros
+- rm /home/j/cmps_455/pintos/src/devices/shutdown.c
+- wget https://github.com/jinmel/pintos_mac/blob/master/devices/shutdown.c /home/j/cmps_455/pintos/src/devices/
+   - the above command put the file in /home/j/cmps_455
+   - mv shutdown.c pintos/src/devices/shutdown.c
+CONTINUE LATER WITH REMOVING PLURALS
